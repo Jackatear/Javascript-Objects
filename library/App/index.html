@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@700&family=Be+Vietnam+Pro:wght@300;400;700&family=Chakra+Petch:wght@300&family=IBM+Plex+Sans:ital,wght@0,700;1,400&family=Inter&family=Major+Mono+Display&family=Roboto&display=swap" rel="stylesheet">
+    <title>Jack's Library</title>
+</head>
+<body>
+    <div class="container">
+        <h1>READING LIST</h1>
+
+        <div class="form-container">
+            <form action="#" class="input-books" id="input-books">
+                <input type="text" placeholder="book-name" id="book-name" class="book-name">
+                <input type="text" placeholder="book-author" id="book-author" class="book-author">
+                <input type="number" placeholder="book-pages" id="book-pages" class="book-pages">
+            </form>
+
+            <button class="submit-book" id="submit-book">CLICK</button>
+        </div>
+        
+        <table class="book-table" id="book-table" >
+            <thead class="table-head">
+                <tr class="head-row">
+                    <td class="name">Name</td>
+                    <td class="author">Author</td>
+                    <td class="pages">Pages</td>
+                    <td class="read"></td>
+                    <td class="remove"></td>
+                </tr>
+            </thead>
+            <tbody class="table-body" id="table-body">
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

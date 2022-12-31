@@ -1,0 +1,116 @@
+:root {
+    --clr-background-light: #f5eec2;
+    --clr-background-darker: #b5af84;
+    --clr-title: #416a59;
+    --clr-background-accent: #39395f;
+    --clr-text: #73a24e;
+}
+
+html {
+    font-family: IBM Plex Sans;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    border: 1px solid black;
+    height: 100%;
+    width: 60vw;
+    margin-inline: auto;
+    display: flex; 
+    flex-direction: column;
+    background-color: var(--clr-background-light);
+    align-items: center;
+}
+
+.form-container {
+    background-color: var(--clr-background-accent);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+input {
+    line-height: 2rem;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.submit-book {
+    background-color: var(--clr-background-light);
+    height: 50px;
+    width: 200px;
+    font-family: IBM plex sans;
+    letter-spacing: 5px;;
+    color: var(--clr-title)
+}
+.submit-book:hover{
+    background-color: var(--clr-title);
+    color: white;
+}
+
+h1 {
+    font-size: 6rem;
+    font-style: italic;
+    letter-spacing: 8px;
+    text-align: center;
+    color: var(--clr-title)
+}
+
+ul {
+    list-style-type: none;
+}
+
+.head-row> * {
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+table {
+    background-color: var(--clr-background-darker);
+    width: 70%;
+}
+
+table * {
+    font-style:italic;
+    padding-left: 3px;
+}
+
+.read {
+    width: 30px;
+}
+
+.remove {
+    width: 30px;
+}
+
+.name {
+    width: 300px;
+}
+
+.author {
+    width: 300px;
+}
+
+table button {
+    border: 0;
+    background-color: var(--clr-background-darker);
+}
+
+tr:hover{
+    background-color: var(--clr-background-light);
+}
