@@ -1,0 +1,31 @@
+body {
+    max-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.add {
+    height: 50px;
+    width: 50px;
+    font-size: 1rem;
+}
+
+.container {
+    height: 200px;
+    width: 90%;
+    border-radius: 5px;
+    border: 10px solid black;
+    display: flex;
+    overflow: scroll;
+    gap: 3px;
+}
+
+.card {
+    height: 100%;
+    flex: 1;
+    min-width: 100px;
+    background-color: antiquewhite;
+}

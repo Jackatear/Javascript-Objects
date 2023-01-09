@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reading List</title>
+</head>
+<body>
+    <div class="app-container">
+        <div class="section left">
+            <h1>ADD BOOK</h1>
+            <button class="drop"></button>
+
+            <div class="form">
+                <form action="#" class="input-books" id="input-books">
+                    <input autocomplete="off" type="text" placeholder="name" id="book-name" class="book-name">
+                    <input autocomplete="off" type="text" placeholder="author" id="book-author" class="book-author">
+                    <input autocomplete="off" type="number" placeholder="pages" id="book-pages" class="book-pages">
+                </form>
+    
+                <button class="submit-book" id="submit-book">SUBMIT</button>
+
+            </div>
+        </div>
+        <div class="section right">
+            <table class="book-table" id="book-table" >
+                <thead class="table-head">
+                    <tr class="head-row">
+                        <td class="name">Name</td>
+                        <td class="author">Author</td>
+                        <td class="pages">Pages</td>
+                        <td class="read"></td>
+                        <td class="remove"></td>
+                    </tr>
+                </thead>
+                <tbody class="table-body" id="table-body">
+    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
